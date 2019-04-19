@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\6f4a7e29578e1d5cf7128d5b64e48fb98ef2df74\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_15f7bb106ab699a9cf2816ab704cb308481364a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_722d4c770827d44e7b335a325d9fc96fe861ed2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\a77dd6c1a5f6a2e1940a45899f6323df90139cdb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_7c648920155d7df59689f4d40e8dfd2cf184beec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\de605d5d320d971daab451a0e10d98cfdba4c46f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_3bb111cba511aab9bced855eb12fd2a5e0ef47d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_45f644cb65059468f3b895906c5bf1f6cedbb25b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\f06748ba94bc041afacf9520cc40215a69d90b74\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_10e763fb070d2682f2c77c89f9d20bbc04737f72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_3e596a163cf6ca7bf254634792c11580b514b585.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OMEE PC\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a3d1e082214091e1974891d55706681f3c972b86\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\84404ee77607043b5d97d55bc25392da7b537cc4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_427996f33bce8792a92886a2f87a5d037f87dd9d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\cse\Projectsd\FairPedia\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd7e849cbddafbd37e3bee06d82e048812295ccf">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_75741e21a2e53f3d11090ec0cdb6879ba0c24761\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\8259abd5f17fbf098f1a235dbcb5939c1dfcd226\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_b1d138b3f9c2fbb0213d71457c63e6197d2b3538.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\237fa98d46c740c4de581f14d03308c6fe25591a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_088941fad5bb045aadc984df8de91f7a3c20eb9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\b09f2f0ad974f3d9327fdb456205d9422a0383cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_e0addbfa3b35d40a446c7187a78a9fc4580e64cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\dae4e93b2e279aae088a95edbca0ff058e745851\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_97b4c97fedf47e7e842f8caf479e525a4ed9bb6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\cfcf3a12f71f5d8c117a6bd6e553a9b88159c63c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_6d4faf7f9976a1092a72e88560494d6a26bd5516.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OMEE PC\.android\build-cache\7dc90e031a81ea9c412e88668b297bfc03a5b44c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3a3293003977dfcb0e3b63e3aeb0fa8c40bc3d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\cse\Projectsd\FairPedia\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_65d7e4cdf058633dc78a0d583c88a36085334a43\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\319687f396ece7a1e41cd61656f3bfad581bbb82\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_5f941552fe8b2d48df9737922f4c107f818fb044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\d4e4d623a1db95cf6d03154d94c3e04e25ce76ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_cd4e6934e603de1878f28a0a11ea97353aa5fa1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OMEE PC\.android\build-cache\a23326d630969a66bd1f51dba2690c3e23faae8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="G:\cse\Projectsd\FairPedia\app\build\intermediates\pre-dexed\debug\classes_c8477839aaeece350c9e5d685fcb9074d2b381a0.jar" />
+    </item>
+
+</items>
