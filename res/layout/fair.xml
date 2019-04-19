@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fair_container"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/f_image"
+                android:layout_width="340dp"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/ft_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/f_image"
+                android:layout_alignStart="@+id/f_image"
+                android:layout_below="@+id/f_image"
+                android:layout_marginTop="35dp"
+                android:text="Fair Name :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/ft_name"
+                android:layout_marginLeft="74dp"
+                android:layout_marginStart="74dp"
+                android:layout_toEndOf="@+id/ft_name"
+                android:layout_toRightOf="@+id/ft_name"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_name"
+                android:layout_alignStart="@+id/ft_name"
+                android:layout_below="@+id/ft_name"
+                android:layout_marginTop="17dp"
+                android:text="Category :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/f_name"
+                android:layout_alignStart="@+id/f_name"
+                android:layout_alignTop="@+id/ft_category"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_category"
+                android:layout_alignStart="@+id/ft_category"
+                android:layout_below="@+id/ft_category"
+                android:layout_marginTop="23dp"
+                android:text="Location :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ft_location"
+                android:layout_alignBottom="@+id/ft_location"
+                android:layout_alignLeft="@+id/f_category"
+                android:layout_alignStart="@+id/f_category"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_sdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_location"
+                android:layout_alignStart="@+id/ft_location"
+                android:layout_below="@+id/ft_location"
+                android:layout_marginTop="20dp"
+                android:text="Starting Date :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_sdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/f_location"
+                android:layout_alignStart="@+id/f_location"
+                android:layout_alignTop="@+id/ft_sdate"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_edate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_sdate"
+                android:layout_alignStart="@+id/ft_sdate"
+                android:layout_below="@+id/ft_sdate"
+                android:layout_marginTop="19dp"
+                android:text="Ending Date :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_edate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ft_edate"
+                android:layout_alignEnd="@+id/f_sdate"
+                android:layout_alignRight="@+id/f_sdate"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_dst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_edate"
+                android:layout_alignStart="@+id/ft_edate"
+                android:layout_below="@+id/ft_edate"
+                android:layout_marginTop="20dp"
+                android:text="Opening Time :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_dst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/f_edate"
+                android:layout_alignRight="@+id/f_edate"
+                android:layout_alignTop="@+id/ft_dst"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_dst"
+                android:layout_alignStart="@+id/ft_dst"
+                android:layout_below="@+id/ft_dst"
+                android:layout_marginTop="17dp"
+                android:text="Closing Time :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ft_det"
+                android:layout_alignBottom="@+id/ft_det"
+                android:layout_alignLeft="@+id/f_dst"
+                android:layout_alignStart="@+id/f_dst"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_nos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_det"
+                android:layout_alignStart="@+id/ft_det"
+                android:layout_below="@+id/ft_det"
+                android:layout_marginTop="14dp"
+                android:text="Total Stalls :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_nos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/f_det"
+                android:layout_alignRight="@+id/f_det"
+                android:layout_alignTop="@+id/ft_nos"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_sponsor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_nos"
+                android:layout_alignStart="@+id/ft_nos"
+                android:layout_below="@+id/ft_nos"
+                android:layout_marginTop="18dp"
+                android:text="Sponsor :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_sponsor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/f_nos"
+                android:layout_alignStart="@+id/f_nos"
+                android:layout_alignTop="@+id/ft_sponsor"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/diffr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_contact"
+                android:layout_alignStart="@+id/ft_contact"
+                android:layout_below="@+id/ft_contact"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="22dp"
+                android:text="Click Here To Book Stall"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ft_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ft_sponsor"
+                android:layout_alignStart="@+id/ft_sponsor"
+                android:layout_below="@+id/ft_sponsor"
+                android:layout_marginTop="17dp"
+                android:text="Contact No :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/f_sponsor"
+                android:layout_alignStart="@+id/f_sponsor"
+                android:layout_alignTop="@+id/ft_contact"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

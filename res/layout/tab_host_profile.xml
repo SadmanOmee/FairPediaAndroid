@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewhpp"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/rpic" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewhpp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/imageButtonhpp"
+        android:layout_alignLeft="@+id/imageButtonhpp"
+        android:layout_alignStart="@+id/imageButtonhpp" />
+
+            <TextView
+                android:id="@+id/textViewthn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="59dp"
+                android:text="User Name:"
+                android:textSize="24sp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewhun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewthn"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewthe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewthn"
+        android:layout_alignStart="@+id/textViewthn"
+        android:layout_below="@+id/textViewthn"
+        android:layout_marginTop="31dp"
+        android:text="Email :"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewhea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/textViewthe"
+        android:layout_alignBottom="@+id/textViewthe"
+        android:layout_alignLeft="@+id/textViewhun"
+        android:layout_alignStart="@+id/textViewhun" />
+
+    <TextView
+        android:id="@+id/textViewthcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewthe"
+        android:layout_alignStart="@+id/textViewthe"
+        android:layout_below="@+id/textViewhea"
+        android:layout_marginTop="29dp"
+        android:text="Country :"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewhcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/textViewthcn"
+        android:layout_alignBottom="@+id/textViewthcn"
+        android:layout_alignLeft="@+id/textViewhea"
+        android:layout_alignStart="@+id/textViewhea" />
+
+    <TextView
+        android:id="@+id/textViewthct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewthcn"
+        android:layout_alignStart="@+id/textViewthcn"
+        android:layout_below="@+id/textViewthcn"
+        android:layout_marginTop="32dp"
+        android:text="City :"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewhct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewthct"
+        android:layout_alignLeft="@+id/textViewhcn"
+        android:layout_alignStart="@+id/textViewhcn"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewthm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewthct"
+        android:layout_alignStart="@+id/textViewthct"
+        android:layout_below="@+id/textViewthct"
+        android:layout_marginTop="37dp"
+        android:text="Contact No:"
+        android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonfa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="800dp"
+                android:text="Button" />
+
+            <TextView
+        android:id="@+id/textViewhmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewthm"
+        android:layout_alignLeft="@+id/textViewhct"
+        android:layout_alignStart="@+id/textViewhct"
+        android:text=""
+        android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
