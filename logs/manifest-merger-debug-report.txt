@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:7:5-70:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\OMEE PC\.android\build-cache\b09f2f0ad974f3d9327fdb456205d9422a0383cd\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\OMEE PC\.android\build-cache\dae4e93b2e279aae088a95edbca0ff058e745851\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\cfcf3a12f71f5d8c117a6bd6e553a9b88159c63c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\de605d5d320d971daab451a0e10d98cfdba4c46f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\a23326d630969a66bd1f51dba2690c3e23faae8d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\6f4a7e29578e1d5cf7128d5b64e48fb98ef2df74\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\f06748ba94bc041afacf9520cc40215a69d90b74\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\8259abd5f17fbf098f1a235dbcb5939c1dfcd226\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\237fa98d46c740c4de581f14d03308c6fe25591a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\319687f396ece7a1e41cd61656f3bfad581bbb82\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\d4e4d623a1db95cf6d03154d94c3e04e25ce76ee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\84404ee77607043b5d97d55bc25392da7b537cc4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\7dc90e031a81ea9c412e88668b297bfc03a5b44c\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:12:9-44
+	android:allowBackup
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:9:9-43
+	android:largeHeap
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:11:9-33
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.omeepc.fairpedia.MainActivity
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.omeepc.fairpedia.SignUpUser
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:26:13-39
+intent-filter#android.intent.category.DEFAULT+com.example.omeepc.fairpedia.SignUpUser
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:28:13-32:29
+action#com.example.omeepc.fairpedia.SignUpUser
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:29:25-79
+category#android.intent.category.DEFAULT
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:31:27-73
+activity#com.example.omeepc.fairpedia.SignUpAuthority
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:34:19-50
+intent-filter#android.intent.category.DEFAULT+com.example.omeepc.fairpedia.SignUpAuthority
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:35:13-39:29
+action#com.example.omeepc.fairpedia.SignUpAuthority
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:36:17-87
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:36:25-84
+activity#com.example.omeepc.fairpedia.SignUpType
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:42:13-39
+intent-filter#android.intent.category.DEFAULT+com.example.omeepc.fairpedia.SignUpType
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:44:13-48:29
+action#com.example.omeepc.fairpedia.SignUpType
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:45:25-79
+activity#com.example.omeepc.fairpedia.NormalUserProfile
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:50:9-56:20
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:50:19-52
+intent-filter#android.intent.category.DEFAULT+com.example.omeepc.fairpedia.NormalUserProfile
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:51:13-55:29
+action#com.example.omeepc.fairpedia.NormalUserProfile
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:52:17-89
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:52:25-86
+activity#com.example.omeepc.fairpedia.NormalUserProfileAndStuffs
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:57:9-60:59
+	android:label
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:59:13-82
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:58:13-55
+activity#com.example.omeepc.fairpedia.AuthorityProfileAndStuffs
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:61:9-64:47
+	android:label
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:63:13-80
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:62:13-54
+activity#com.example.omeepc.fairpedia.SignUpHost
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:65:9-48
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:65:19-45
+activity#com.example.omeepc.fairpedia.HostProfileAndStuff
+ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:66:9-69:56
+	android:label
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:68:13-74
+	android:theme
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml:67:13-48
+uses-sdk
+INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\OMEE PC\.android\build-cache\b09f2f0ad974f3d9327fdb456205d9422a0383cd\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\OMEE PC\.android\build-cache\dae4e93b2e279aae088a95edbca0ff058e745851\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\cfcf3a12f71f5d8c117a6bd6e553a9b88159c63c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\de605d5d320d971daab451a0e10d98cfdba4c46f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\a23326d630969a66bd1f51dba2690c3e23faae8d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\a77dd6c1a5f6a2e1940a45899f6323df90139cdb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\6f4a7e29578e1d5cf7128d5b64e48fb98ef2df74\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\f06748ba94bc041afacf9520cc40215a69d90b74\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\8259abd5f17fbf098f1a235dbcb5939c1dfcd226\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\237fa98d46c740c4de581f14d03308c6fe25591a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\319687f396ece7a1e41cd61656f3bfad581bbb82\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\d4e4d623a1db95cf6d03154d94c3e04e25ce76ee\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\84404ee77607043b5d97d55bc25392da7b537cc4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\7dc90e031a81ea9c412e88668b297bfc03a5b44c\output\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\cse\Projectsd\FairPedia\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\cfcf3a12f71f5d8c117a6bd6e553a9b88159c63c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\de605d5d320d971daab451a0e10d98cfdba4c46f\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\a23326d630969a66bd1f51dba2690c3e23faae8d\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\a77dd6c1a5f6a2e1940a45899f6323df90139cdb\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\6f4a7e29578e1d5cf7128d5b64e48fb98ef2df74\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\f06748ba94bc041afacf9520cc40215a69d90b74\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\8259abd5f17fbf098f1a235dbcb5939c1dfcd226\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\237fa98d46c740c4de581f14d03308c6fe25591a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\319687f396ece7a1e41cd61656f3bfad581bbb82\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\d4e4d623a1db95cf6d03154d94c3e04e25ce76ee\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\84404ee77607043b5d97d55bc25392da7b537cc4\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\7dc90e031a81ea9c412e88668b297bfc03a5b44c\output\AndroidManifest.xml:22:5-24:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\OMEE PC\.android\build-cache\0a33fa9bd88e3907626fc1e897773cd3e783fc14\output\AndroidManifest.xml:26:9-47
