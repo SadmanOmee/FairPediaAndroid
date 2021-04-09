@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.omeepc.fairpedia.SignUpHost">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTexthun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User Name"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/ic_action_nameuser"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTexthea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTexthun"
+        android:layout_alignStart="@+id/editTexthun"
+        android:layout_below="@+id/editTexthun"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:text="Email Address"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTexthpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTexthea"
+        android:layout_alignStart="@+id/editTexthea"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:layout_below="@+id/editTexthea"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTexthrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTexthpw"
+        android:layout_alignStart="@+id/editTexthpw"
+        android:layout_below="@+id/editTexthpw"
+        android:layout_marginTop="22dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Retype Password"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewhcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTexthrp"
+        android:layout_alignStart="@+id/editTexthrp"
+        android:layout_below="@+id/editTexthrp"
+        android:layout_marginTop="15dp"
+        android:text="Country"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerhcn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewhcn"
+        android:layout_alignStart="@+id/textViewhcn"
+        android:layout_below="@+id/textViewhcn"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/textViewhct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerhcn"
+        android:layout_alignStart="@+id/spinnerhcn"
+        android:layout_below="@+id/spinnerhcn"
+        android:layout_marginTop="23dp"
+        android:text="City"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerhct"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewhct"
+        android:layout_alignLeft="@+id/textViewhct"
+        android:layout_alignStart="@+id/textViewhct" />
+
+    <EditText
+        android:id="@+id/editTexthmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerhct"
+        android:layout_alignStart="@+id/spinnerhct"
+        android:layout_below="@+id/spinnerhct"
+        android:layout_marginTop="17dp"
+        android:drawableLeft="@drawable/ic_action_name_mobile"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Contact No"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_hostsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Sign Up"
+        android:layout_below="@+id/editTexthmn"
+        android:layout_alignRight="@+id/spinnerhct"
+        android:layout_alignEnd="@+id/spinnerhct"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

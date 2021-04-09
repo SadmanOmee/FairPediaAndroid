@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Arrange a Fair"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageViewfup"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageButton
+        android:id="@+id/imageButtonfup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewfup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Event Image"
+        android:layout_below="@+id/imageButtonfup"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Fair Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinnercat"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/editTextfn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonfup"
+        android:layout_alignStart="@+id/imageButtonfup"
+        android:layout_below="@+id/editTextfn"
+        android:layout_marginTop="17dp"
+        android:text="Category" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="City"
+        android:layout_below="@+id/spinnercat"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinnerct"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Area"
+        android:layout_below="@+id/spinnerct"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44" />
+
+    <Spinner
+        android:id="@+id/spinnerar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView46"
+        android:layout_alignLeft="@+id/spinnerct"
+        android:layout_alignStart="@+id/spinnerct" />
+
+    <EditText
+        android:id="@+id/editTextfst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextfn"
+        android:layout_alignRight="@+id/editTextfn"
+        android:layout_below="@+id/spinnerar"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Fair Starting Date"
+        android:inputType="date"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextfed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextfst"
+        android:layout_alignRight="@+id/editTextfst"
+        android:layout_below="@+id/editTextfst"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Fair Ending Date"
+        android:inputType="date"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextfdst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextfed"
+        android:layout_alignRight="@+id/editTextfed"
+        android:layout_below="@+id/editTextfed"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Daily Fair Starting Time"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextfdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextfdst"
+        android:layout_alignStart="@+id/editTextfdst"
+        android:layout_below="@+id/editTextfdst"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Daily Fair Ending Time"
+        android:inputType="time"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextfdet"
+        android:layout_alignStart="@+id/editTextfdet"
+        android:layout_below="@+id/editTextfdet"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Number of Stalls"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextnos"
+        android:layout_alignStart="@+id/editTextnos"
+        android:layout_below="@+id/editTextnos"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Sponsor"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextfcnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextsp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contact No"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonarra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextfcnt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Arrange" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
